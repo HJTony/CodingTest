@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class ProblemList {
     @Test
     public void printList() {
@@ -16,5 +18,11 @@ public class ProblemList {
         for(int i : DP) {
             System.out.println(prefix+ i);
         }
+    }
+
+    @Test
+    public void test() {
+        int[] a = {2,3,4,51,1};
+        Arrays.sort(a);
     }
 }

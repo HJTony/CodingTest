@@ -1,7 +1,5 @@
 package Algo;
 
-import BaekJoonLecture.bruteforce.permutation.B10971;
-import BaekJoonLecture.bruteforce.permutation.B6603;
 import org.junit.Test;
 
 import java.io.*;
@@ -15,6 +13,12 @@ public class BaekJoonLectureTest {
     @Test
     public void problem() throws IOException {
 //        B6603.test(null);
+        int n = 10;
+        int [] d = new int[11];
+        d[0] =3;
+        for(int i=1;i<11;i++) {
+            d[i] = 7*d[i-1];
+        }
     }
 
 

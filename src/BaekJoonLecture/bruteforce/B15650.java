@@ -10,7 +10,7 @@ public class B15650 {
     static boolean[] c;
     static int[] a;
 
-    public static void test() throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException {
         System.setIn(new FileInputStream("test/testInput"));
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
@@ -18,8 +18,8 @@ public class B15650 {
         a = new int[m];
         c = new boolean[n];
 
-//        getCom(0, n, m, 1);
-        go(0, 0, n, m);
+        getCom(0, n, m, 0);
+//        go(0, 0, n, m);
     }
 
     private static void go(int index, int selected, int n, int m) {

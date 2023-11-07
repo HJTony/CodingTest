@@ -28,7 +28,7 @@ public class FormatChangeTest {
             if (s.contains("test")) {
                 s = s.replace("test", "main");
             }
-            if(s.contains("class")) {
+            if(s.contains("public class")) {
                 s = "public class Main {";
             }
             if(s.contains("package")) {

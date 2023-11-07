@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 //계단 수 구하기 n자리수로 이뤄진 계단 형태의 수열 구하기
 //계단 수란 앞의 자리가 -1 또는 +1 로 구성된 형태의 수열
-public class B10884 {
+public class B10844 {
     static long mod = 1000000000L;
     public static void main(String[] args) throws FileNotFoundException {
         System.setIn(new FileInputStream("test/testInput"));

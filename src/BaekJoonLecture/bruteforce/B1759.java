@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class B1795 {
+public class B1759 {
     static int size, total;
     static String[] ans;
     static boolean[] c;

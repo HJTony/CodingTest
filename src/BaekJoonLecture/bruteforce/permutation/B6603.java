@@ -11,7 +11,7 @@ public class B6603 {
     static int[] temp = new int[6];
     static boolean[] c;
 
-    public static void mainWithCombination(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException {
         System.setIn(new FileInputStream("test/testInput"));
         Scanner scanner = new Scanner(System.in);
         do {

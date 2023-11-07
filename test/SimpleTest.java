@@ -1,4 +1,3 @@
-import BaekJoonLecture.bruteforce.B1795;
 import org.junit.Test;
 
 import java.io.*;
